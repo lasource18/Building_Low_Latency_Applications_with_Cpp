@@ -1,0 +1,9 @@
+/home/lasource/Documents/Building_Low_Latency_Applications_with_Cpp/ch06/cmake-build-release/CMakeFiles/exchange_main.dir
+/home/lasource/Documents/Building_Low_Latency_Applications_with_Cpp/ch06/cmake-build-release/CMakeFiles/edit_cache.dir
+/home/lasource/Documents/Building_Low_Latency_Applications_with_Cpp/ch06/cmake-build-release/CMakeFiles/rebuild_cache.dir
+/home/lasource/Documents/Building_Low_Latency_Applications_with_Cpp/ch06/cmake-build-release/common/CMakeFiles/libcommon.dir
+/home/lasource/Documents/Building_Low_Latency_Applications_with_Cpp/ch06/cmake-build-release/common/CMakeFiles/edit_cache.dir
+/home/lasource/Documents/Building_Low_Latency_Applications_with_Cpp/ch06/cmake-build-release/common/CMakeFiles/rebuild_cache.dir
+/home/lasource/Documents/Building_Low_Latency_Applications_with_Cpp/ch06/cmake-build-release/exchange/CMakeFiles/libexchange.dir
+/home/lasource/Documents/Building_Low_Latency_Applications_with_Cpp/ch06/cmake-build-release/exchange/CMakeFiles/edit_cache.dir
+/home/lasource/Documents/Building_Low_Latency_Applications_with_Cpp/ch06/cmake-build-release/exchange/CMakeFiles/rebuild_cache.dir

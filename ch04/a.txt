@@ -1,0 +1,22 @@
+Here's the content of macros.h below:
+```
+#include <cstring>
+#include <iostream>
+
+#define LIKELY(x) __builtin_expect(!!(x), 1)
+#define UNLIKELY(x) __builtin_expect(!!(x), 0)
+
+inline auto ASSERT(bool cond, const std::string& msg) noexcept
+{
+    if (UNLIKELY(!cond))
+    {
+        std::cerr << msg << std::endl;
+        exit(EXIT_FAILURE);
+    }
+    
+}
+```
+
+I also need you to give me a line by line explanation of this code also 
+
+Now help me to craft a post on LinkedIn announcing my intention of starting to build a low-latency trading trading and giving a short walk-through of this code to attract the interest of prospective employers

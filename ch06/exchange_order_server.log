@@ -1,0 +1,4 @@
+/home/lasource/Documents/Building_Low_Latency_Applications_with_Cpp/ch06/exchange/order_server/order_server.cpp:25 start() Mon Nov  3 15:35:24 2025 Starting OrderServer on lo:12345
+/home/lasource/Documents/Building_Low_Latency_Applications_with_Cpp/ch06/common/socket_utils.h:113 createSocket() Mon Nov  3 15:35:24 2025 cfg:SocketCfg[ip: iface:lo port:12345 is_udp:0 is_listening_:1 needs_SO_timestamp:1]
+/home/lasource/Documents/Building_Low_Latency_Applications_with_Cpp/ch06/exchange/order_server/order_server.h:43 run() Mon Nov  3 15:35:24 2025
+Stopping OrderServer

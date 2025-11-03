@@ -1,0 +1,2 @@
+/home/lasource/Documents/Building_Low_Latency_Applications_with_Cpp/ch06/common/socket_utils.h:113 createSocket() Mon Nov  3 15:31:46 2025 cfg:SocketCfg[ip:233.252.14.3 iface:lo port:20001 is_udp:1 is_listening_:0 needs_SO_timestamp:0]
+/home/lasource/Documents/Building_Low_Latency_Applications_with_Cpp/ch06/exchange/market_data/market_data_publisher.cpp:16 run() Mon Nov  3 15:31:48 2025

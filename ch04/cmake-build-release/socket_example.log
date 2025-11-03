@@ -1,0 +1,247 @@
+Creating TCPServer on iface:lo port:12345
+../socket_utils.h:112 createSocket() Thu Oct  2 22:32:12 2025 cfg:SocketCfg[ip: iface:lo port:12345 is_udp:0 is_listening_:1 needs_SO_timestamp:1]
+Connecting TCPClient-[0] on ip:127.0.0.1 iface:lo port:12345
+../socket_utils.h:112 createSocket() Thu Oct  2 22:32:12 2025 cfg:SocketCfg[ip:127.0.0.1 iface:lo port:12345 is_udp:0 is_listening_:0 needs_SO_timestamp:1]
+../tcp_server.cpp:53 poll() Thu Oct  2 22:32:12 2025 EPOLLIN socket:5
+../tcp_server.cpp:84 poll() Thu Oct  2 22:32:12 2025 have_new_connection
+../tcp_server.cpp:94 poll() Thu Oct  2 22:32:12 2025 accepted socket:7
+../tcp_server.cpp:84 poll() Thu Oct  2 22:32:12 2025 have_new_connection
+Connecting TCPClient-[1] on ip:127.0.0.1 iface:lo port:12345
+../socket_utils.h:112 createSocket() Thu Oct  2 22:32:12 2025 cfg:SocketCfg[ip:127.0.0.1 iface:lo port:12345 is_udp:0 is_listening_:0 needs_SO_timestamp:1]
+../tcp_server.cpp:53 poll() Thu Oct  2 22:32:12 2025 EPOLLIN socket:5
+../tcp_server.cpp:84 poll() Thu Oct  2 22:32:12 2025 have_new_connection
+../tcp_server.cpp:94 poll() Thu Oct  2 22:32:12 2025 accepted socket:9
+../tcp_server.cpp:84 poll() Thu Oct  2 22:32:12 2025 have_new_connection
+Connecting TCPClient-[2] on ip:127.0.0.1 iface:lo port:12345
+../socket_utils.h:112 createSocket() Thu Oct  2 22:32:12 2025 cfg:SocketCfg[ip:127.0.0.1 iface:lo port:12345 is_udp:0 is_listening_:0 needs_SO_timestamp:1]
+../tcp_server.cpp:53 poll() Thu Oct  2 22:32:12 2025 EPOLLIN socket:5
+../tcp_server.cpp:84 poll() Thu Oct  2 22:32:12 2025 have_new_connection
+../tcp_server.cpp:94 poll() Thu Oct  2 22:32:12 2025 accepted socket:11
+../tcp_server.cpp:84 poll() Thu Oct  2 22:32:12 2025 have_new_connection
+Connecting TCPClient-[3] on ip:127.0.0.1 iface:lo port:12345
+../socket_utils.h:112 createSocket() Thu Oct  2 22:32:12 2025 cfg:SocketCfg[ip:127.0.0.1 iface:lo port:12345 is_udp:0 is_listening_:0 needs_SO_timestamp:1]
+../tcp_server.cpp:53 poll() Thu Oct  2 22:32:12 2025 EPOLLIN socket:5
+../tcp_server.cpp:84 poll() Thu Oct  2 22:32:12 2025 have_new_connection
+../tcp_server.cpp:94 poll() Thu Oct  2 22:32:12 2025 accepted socket:13
+../tcp_server.cpp:84 poll() Thu Oct  2 22:32:13 2025 have_new_connection
+Connecting TCPClient-[4] on ip:127.0.0.1 iface:lo port:12345
+../socket_utils.h:112 createSocket() Thu Oct  2 22:32:13 2025 cfg:SocketCfg[ip:127.0.0.1 iface:lo port:12345 is_udp:0 is_listening_:0 needs_SO_timestamp:1]
+../tcp_server.cpp:53 poll() Thu Oct  2 22:32:13 2025 EPOLLIN socket:5
+../tcp_server.cpp:84 poll() Thu Oct  2 22:32:13 2025 have_new_connection
+../tcp_server.cpp:94 poll() Thu Oct  2 22:32:13 2025 accepted socket:15
+../tcp_server.cpp:84 poll() Thu Oct  2 22:32:13 2025 have_new_connection
+Sending TCPClient-[0] CLIENT-[0] : Sending 0
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:13 2025 send socket:6 len:22
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:13 2025 EPOLLIN socket:7
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:13 2025 read socket:7 len:22 utime:1759458733617596679 ktime:1759458733117187000 diff:500409679
+TCPServer::defaultRecvCallback() socket:7 len:22 rx:1759458733117187000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:13 2025 send socket:7 len:45
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[1] CLIENT-[1] : Sending 1
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:13 2025 send socket:8 len:22
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:14 2025 EPOLLIN socket:9
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:14 2025 read socket:9 len:22 utime:1759458734118073837 ktime:1759458733617780000 diff:500293837
+TCPServer::defaultRecvCallback() socket:9 len:22 rx:1759458733617780000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:14 2025 send socket:9 len:45
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[2] CLIENT-[2] : Sending 2
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:14 2025 send socket:10 len:22
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:14 2025 EPOLLIN socket:11
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:14 2025 read socket:11 len:22 utime:1759458734618707420 ktime:1759458734118233000 diff:500474420
+TCPServer::defaultRecvCallback() socket:11 len:22 rx:1759458734118233000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:14 2025 send socket:11 len:45
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[3] CLIENT-[3] : Sending 3
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:14 2025 send socket:12 len:22
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:15 2025 EPOLLIN socket:13
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:15 2025 read socket:13 len:22 utime:1759458735119342447 ktime:1759458734618861000 diff:500481447
+TCPServer::defaultRecvCallback() socket:13 len:22 rx:1759458734618861000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:15 2025 send socket:13 len:45
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[4] CLIENT-[4] : Sending 4
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:15 2025 send socket:14 len:22
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:15 2025 EPOLLIN socket:15
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:15 2025 read socket:15 len:22 utime:1759458735620166321 ktime:1759458735119494000 diff:500672321
+TCPServer::defaultRecvCallback() socket:15 len:22 rx:1759458735119494000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:15 2025 send socket:15 len:45
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[0] CLIENT-[0] : Sending 100
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:15 2025 read socket:6 len:45 utime:1759458735620289182 ktime:1759458733617651000 diff:2002638182
+TCPServer::defaultRecvCallback() socket:6 len:0 rx:1759458733617651000 msg:TCPServer received msg:CLIENT-[0] : Sending 0
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:15 2025 send socket:6 len:24
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:16 2025 EPOLLIN socket:7
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:16 2025 read socket:7 len:24 utime:1759458736120781418 ktime:1759458735620324000 diff:500457418
+TCPServer::defaultRecvCallback() socket:7 len:24 rx:1759458735620324000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:16 2025 send socket:7 len:47
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[1] CLIENT-[1] : Sending 101
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:16 2025 read socket:8 len:45 utime:1759458736120937182 ktime:1759458734118142000 diff:2002795182
+TCPServer::defaultRecvCallback() socket:8 len:0 rx:1759458734118142000 msg:TCPServer received msg:CLIENT-[1] : Sending 1
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:16 2025 send socket:8 len:24
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:16 2025 EPOLLIN socket:9
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:16 2025 read socket:9 len:24 utime:1759458736621428998 ktime:1759458736120974000 diff:500454998
+TCPServer::defaultRecvCallback() socket:9 len:24 rx:1759458736120974000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:16 2025 send socket:9 len:47
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[2] CLIENT-[2] : Sending 102
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:16 2025 read socket:10 len:45 utime:1759458736621581406 ktime:1759458734618773000 diff:2002808406
+TCPServer::defaultRecvCallback() socket:10 len:0 rx:1759458734618773000 msg:TCPServer received msg:CLIENT-[2] : Sending 2
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:16 2025 send socket:10 len:24
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:17 2025 EPOLLIN socket:11
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:17 2025 read socket:11 len:24 utime:1759458737121824243 ktime:1759458736621620000 diff:500204243
+TCPServer::defaultRecvCallback() socket:11 len:24 rx:1759458736621620000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:17 2025 send socket:11 len:47
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[3] CLIENT-[3] : Sending 103
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:17 2025 read socket:12 len:45 utime:1759458737121975358 ktime:1759458735119406000 diff:2002569358
+TCPServer::defaultRecvCallback() socket:12 len:0 rx:1759458735119406000 msg:TCPServer received msg:CLIENT-[3] : Sending 3
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:17 2025 send socket:12 len:24
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:17 2025 EPOLLIN socket:13
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:17 2025 read socket:13 len:24 utime:1759458737622486300 ktime:1759458737122017000 diff:500469300
+TCPServer::defaultRecvCallback() socket:13 len:24 rx:1759458737122017000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:17 2025 send socket:13 len:47
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[4] CLIENT-[4] : Sending 104
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:17 2025 read socket:14 len:45 utime:1759458737622633848 ktime:1759458735620220000 diff:2002413848
+TCPServer::defaultRecvCallback() socket:14 len:0 rx:1759458735620220000 msg:TCPServer received msg:CLIENT-[4] : Sending 4
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:17 2025 send socket:14 len:24
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:18 2025 EPOLLIN socket:15
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:18 2025 read socket:15 len:24 utime:1759458738123144320 ktime:1759458737622672000 diff:500472320
+TCPServer::defaultRecvCallback() socket:15 len:24 rx:1759458737622672000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:18 2025 send socket:15 len:47
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[0] CLIENT-[0] : Sending 200
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:18 2025 read socket:6 len:47 utime:1759458738123292579 ktime:1759458736120846000 diff:2002446579
+TCPServer::defaultRecvCallback() socket:6 len:0 rx:1759458736120846000 msg:TCPServer received msg:CLIENT-[0] : Sending 100
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:18 2025 send socket:6 len:24
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:18 2025 EPOLLIN socket:7
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:18 2025 read socket:7 len:24 utime:1759458738623863775 ktime:1759458738123328000 diff:500535775
+TCPServer::defaultRecvCallback() socket:7 len:24 rx:1759458738123328000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:18 2025 send socket:7 len:47
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[1] CLIENT-[1] : Sending 201
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:18 2025 read socket:8 len:47 utime:1759458738624023226 ktime:1759458736621491000 diff:2002532226
+TCPServer::defaultRecvCallback() socket:8 len:0 rx:1759458736621491000 msg:TCPServer received msg:CLIENT-[1] : Sending 101
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:18 2025 send socket:8 len:24
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:19 2025 EPOLLIN socket:9
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:19 2025 read socket:9 len:24 utime:1759458739124520451 ktime:1759458738624059000 diff:500461451
+TCPServer::defaultRecvCallback() socket:9 len:24 rx:1759458738624059000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:19 2025 send socket:9 len:47
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[2] CLIENT-[2] : Sending 202
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:19 2025 read socket:10 len:47 utime:1759458739124673630 ktime:1759458737121884000 diff:2002789630
+TCPServer::defaultRecvCallback() socket:10 len:0 rx:1759458737121884000 msg:TCPServer received msg:CLIENT-[2] : Sending 102
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:19 2025 send socket:10 len:24
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:19 2025 EPOLLIN socket:11
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:19 2025 read socket:11 len:24 utime:1759458739625191726 ktime:1759458739124712000 diff:500479726
+TCPServer::defaultRecvCallback() socket:11 len:24 rx:1759458739124712000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:19 2025 send socket:11 len:47
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[3] CLIENT-[3] : Sending 203
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:19 2025 read socket:12 len:47 utime:1759458739625344965 ktime:1759458737622550000 diff:2002794965
+TCPServer::defaultRecvCallback() socket:12 len:0 rx:1759458737622550000 msg:TCPServer received msg:CLIENT-[3] : Sending 103
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:19 2025 send socket:12 len:24
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:20 2025 EPOLLIN socket:13
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:20 2025 read socket:13 len:24 utime:1759458740125862017 ktime:1759458739625381000 diff:500481017
+TCPServer::defaultRecvCallback() socket:13 len:24 rx:1759458739625381000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:20 2025 send socket:13 len:47
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[4] CLIENT-[4] : Sending 204
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:20 2025 read socket:14 len:47 utime:1759458740126009395 ktime:1759458738123206000 diff:2002803395
+TCPServer::defaultRecvCallback() socket:14 len:0 rx:1759458738123206000 msg:TCPServer received msg:CLIENT-[4] : Sending 104
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:20 2025 send socket:14 len:24
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:20 2025 EPOLLIN socket:15
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:20 2025 read socket:15 len:24 utime:1759458740626503624 ktime:1759458740126047000 diff:500456624
+TCPServer::defaultRecvCallback() socket:15 len:24 rx:1759458740126047000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:20 2025 send socket:15 len:47
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[0] CLIENT-[0] : Sending 300
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:20 2025 read socket:6 len:47 utime:1759458740626653587 ktime:1759458738623932000 diff:2002721587
+TCPServer::defaultRecvCallback() socket:6 len:0 rx:1759458738623932000 msg:TCPServer received msg:CLIENT-[0] : Sending 200
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:20 2025 send socket:6 len:24
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:21 2025 EPOLLIN socket:7
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:21 2025 read socket:7 len:24 utime:1759458741127161474 ktime:1759458740626690000 diff:500471474
+TCPServer::defaultRecvCallback() socket:7 len:24 rx:1759458740626690000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:21 2025 send socket:7 len:47
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[1] CLIENT-[1] : Sending 301
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:21 2025 read socket:8 len:47 utime:1759458741127320464 ktime:1759458739124583000 diff:2002737464
+TCPServer::defaultRecvCallback() socket:8 len:0 rx:1759458739124583000 msg:TCPServer received msg:CLIENT-[1] : Sending 201
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:21 2025 send socket:8 len:24
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:21 2025 EPOLLIN socket:9
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:21 2025 read socket:9 len:24 utime:1759458741627829152 ktime:1759458741127357000 diff:500472152
+TCPServer::defaultRecvCallback() socket:9 len:24 rx:1759458741127357000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:21 2025 send socket:9 len:47
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[2] CLIENT-[2] : Sending 302
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:21 2025 read socket:10 len:47 utime:1759458741627980047 ktime:1759458739625256000 diff:2002724047
+TCPServer::defaultRecvCallback() socket:10 len:0 rx:1759458739625256000 msg:TCPServer received msg:CLIENT-[2] : Sending 202
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:21 2025 send socket:10 len:24
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:22 2025 EPOLLIN socket:11
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:22 2025 read socket:11 len:24 utime:1759458742128227812 ktime:1759458741628019000 diff:500208812
+TCPServer::defaultRecvCallback() socket:11 len:24 rx:1759458741628019000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:22 2025 send socket:11 len:47
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[3] CLIENT-[3] : Sending 303
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:22 2025 read socket:12 len:47 utime:1759458742128352768 ktime:1759458740125926000 diff:2002426768
+TCPServer::defaultRecvCallback() socket:12 len:0 rx:1759458740125926000 msg:TCPServer received msg:CLIENT-[3] : Sending 203
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:22 2025 send socket:12 len:24
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:22 2025 EPOLLIN socket:13
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:22 2025 read socket:13 len:24 utime:1759458742628848170 ktime:1759458742128387000 diff:500461170
+TCPServer::defaultRecvCallback() socket:13 len:24 rx:1759458742128387000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:22 2025 send socket:13 len:47
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[4] CLIENT-[4] : Sending 304
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:22 2025 read socket:14 len:47 utime:1759458742628998984 ktime:1759458740626567000 diff:2002431984
+TCPServer::defaultRecvCallback() socket:14 len:0 rx:1759458740626567000 msg:TCPServer received msg:CLIENT-[4] : Sending 204
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:22 2025 send socket:14 len:24
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:23 2025 EPOLLIN socket:15
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:23 2025 read socket:15 len:24 utime:1759458743129318456 ktime:1759458742629036000 diff:500282456
+TCPServer::defaultRecvCallback() socket:15 len:24 rx:1759458742629036000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:23 2025 send socket:15 len:47
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[0] CLIENT-[0] : Sending 400
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:23 2025 read socket:6 len:47 utime:1759458743129467567 ktime:1759458741127227000 diff:2002240567
+TCPServer::defaultRecvCallback() socket:6 len:0 rx:1759458741127227000 msg:TCPServer received msg:CLIENT-[0] : Sending 300
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:23 2025 send socket:6 len:24
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:23 2025 EPOLLIN socket:7
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:23 2025 read socket:7 len:24 utime:1759458743630030468 ktime:1759458743129506000 diff:500524468
+TCPServer::defaultRecvCallback() socket:7 len:24 rx:1759458743129506000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:23 2025 send socket:7 len:47
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[1] CLIENT-[1] : Sending 401
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:23 2025 read socket:8 len:47 utime:1759458743630163539 ktime:1759458741627892000 diff:2002271539
+TCPServer::defaultRecvCallback() socket:8 len:0 rx:1759458741627892000 msg:TCPServer received msg:CLIENT-[1] : Sending 301
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:23 2025 send socket:8 len:24
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:24 2025 EPOLLIN socket:9
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:24 2025 read socket:9 len:24 utime:1759458744130622853 ktime:1759458743630198000 diff:500424853
+TCPServer::defaultRecvCallback() socket:9 len:24 rx:1759458743630198000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:24 2025 send socket:9 len:47
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[2] CLIENT-[2] : Sending 402
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:24 2025 read socket:10 len:47 utime:1759458744130774148 ktime:1759458742128279000 diff:2002495148
+TCPServer::defaultRecvCallback() socket:10 len:0 rx:1759458742128279000 msg:TCPServer received msg:CLIENT-[2] : Sending 302
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:24 2025 send socket:10 len:24
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:24 2025 EPOLLIN socket:11
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:24 2025 read socket:11 len:24 utime:1759458744631263879 ktime:1759458744130812000 diff:500451879
+TCPServer::defaultRecvCallback() socket:11 len:24 rx:1759458744130812000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:24 2025 send socket:11 len:47
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[3] CLIENT-[3] : Sending 403
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:24 2025 read socket:12 len:47 utime:1759458744631414614 ktime:1759458742628915000 diff:2002499614
+TCPServer::defaultRecvCallback() socket:12 len:0 rx:1759458742628915000 msg:TCPServer received msg:CLIENT-[3] : Sending 303
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:24 2025 send socket:12 len:24
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:25 2025 EPOLLIN socket:13
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:25 2025 read socket:13 len:24 utime:1759458745131801060 ktime:1759458744631453000 diff:500348060
+TCPServer::defaultRecvCallback() socket:13 len:24 rx:1759458744631453000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:25 2025 send socket:13 len:47
+TCPServer::defaultRecvCallback()
+Sending TCPClient-[4] CLIENT-[4] : Sending 404
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:25 2025 read socket:14 len:47 utime:1759458745131948238 ktime:1759458743129382000 diff:2002566238
+TCPServer::defaultRecvCallback() socket:14 len:0 rx:1759458743129382000 msg:TCPServer received msg:CLIENT-[4] : Sending 304
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:25 2025 send socket:14 len:24
+../tcp_server.cpp:58 poll() Thu Oct  2 22:32:25 2025 EPOLLIN socket:15
+../tcp_socket.cpp:39 sendAndRecv() Thu Oct  2 22:32:25 2025 read socket:15 len:24 utime:1759458745632457836 ktime:1759458745131985000 diff:500472836
+TCPServer::defaultRecvCallback() socket:15 len:24 rx:1759458745131985000
+../tcp_socket.cpp:48 sendAndRecv() Thu Oct  2 22:32:25 2025 send socket:15 len:47
+TCPServer::defaultRecvCallback()
