@@ -46,7 +46,7 @@ namespace Trading
 
             auto start() -> void {
                 run_ = true;
-                ASSERT(Common::createAndStartThread(-1, "Exchange/MarketDataConsumer", [this]() { run(); }) != nullptr, "Failed to start MarketDataConsumer thread.");
+                ASSERT(Common::createAndStartThread(-1, "Trading/MarketDataConsumer", [this]() { run(); }) != nullptr, "Failed to start MarketDataConsumer thread.");
             }
 
             auto stop() -> void {
