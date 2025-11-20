@@ -49,7 +49,7 @@ namespace Trading
         Side side_ = Side::INVALID;
         Price price_ = Price_INVALID;
 
-        MarketOrder *first_me_order_ = nullptr;
+        MarketOrder *first_mkt_order_ = nullptr;
 
         // MarketOrdersAtPrice also serve as a node in a doubly linked list of price levels arranged from the most aggressive to least aggressive price
         MarketOrdersAtPrice *prev_entry_ = nullptr;
@@ -59,14 +59,14 @@ namespace Trading
         MarketOrdersAtPrice() = default;
 
         MarketOrdersAtPrice(Side side, Price price, MarketOrder *first_me_order, MarketOrdersAtPrice *prev_entry, MarketOrdersAtPrice *next_entry)
-            : side_(side), price_(price), first_me_order_(first_me_order), prev_entry_(prev_entry), next_entry_(next_entry) {}
+            : side_(side), price_(price), first_mkt_order_(first_me_order), prev_entry_(prev_entry), next_entry_(next_entry) {}
         
         auto toString() const {
             std::stringstream ss;
             ss << "MarketOrdersAtPrice["
                << "side:" << sideToString(side_) << " " 
                << "price:" << priceToString(price_) << " "
-               << "first_me_order:" << (first_me_order_ ? first_me_order_->toString() : "null") << " "
+               << "first_me_order:" << (first_mkt_order_ ? first_mkt_order_->toString() : "null") << " "
                << "prev:" << (prev_entry_? prev_entry_->price_ : Price_INVALID) << " "
                << "next:" << (next_entry_? next_entry_->price_ : Price_INVALID) << " ]";
 

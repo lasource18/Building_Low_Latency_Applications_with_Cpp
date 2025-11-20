@@ -92,7 +92,6 @@ namespace Exchange
             // This will call match() to perform the match if there's a match to be made and return the quantity remaining if any on this new order
             auto checkForMatch(TickerId ticker_id, ClientId client_id, Side side, Price price, OrderId client_order_id, OrderId new_market_order_id, Qty qty) noexcept;
 
-
             // Adds a new MEOrdersAtPrice at the current price into the containers - the hash map and the doubly linked list of price levels
             auto addOrdersAtPrice(MEOrdersAtPrice* new_orders_at_price) noexcept {
                 price_orders_at_price_.at(priceToIndex(new_orders_at_price->price_)) = new_orders_at_price;
